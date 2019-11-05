@@ -1,0 +1,110 @@
+<query>
+    <name>mtxrWireless</name>
+    <description></description>
+    <oid_index>.1.3.6.1.4.1.14988.1.1.1.2.1.2</oid_index>
+    <oid_index_parse>OID/REGEXP:^\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\.(.*)$</oid_index_parse>
+    <oid_num_indexes> .1.3.6.1.4.1.14988.1.1.1.4.0</oid_num_indexes>
+    <index_order>mtxrWlRtabIface</index_order>
+    <index_order_type>alphabetic</index_order_type>
+    <index_title_format>|chosen_order_field|</index_title_format>
+                <fields>
+                        <mtxrWlRtabIface>
+                                <name>mtxrWlRtabIface</name>
+                                <method>walk</method>
+                                <source>value</source>
+								<output_format>hex</output_format>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.2</oid>
+                        </mtxrWlRtabIface>
+
+						<mtxrWlRtabStrength>
+                                <name>mtxrWlRtabStrength</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.3</oid>
+                        </mtxrWlRtabStrength>
+
+                        <mtxrWlRtabTxBytes>
+                                <name>mtxrWlRtabTxBytes</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.4</oid>
+                        </mtxrWlRtabTxBytes>
+						
+						<mtxrWlRtabRxBytes>
+                                <name>mtxrWlRtabRxBytes</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.5</oid>
+                        </mtxrWlRtabRxBytes>
+												
+                        <mtxrWlRtabSignalToNoise>
+                                <name>mtxrWlRtabSignalToNoise</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.12</oid>
+                        </mtxrWlRtabSignalToNoise>
+
+                        <mtxrWlRtabTxStrengthCh0>
+                                <name>mtxrWlRtabTxStrengthCh0</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.13</oid>
+                        </mtxrWlRtabTxStrengthCh0>
+
+                        <mtxrWlRtabRxStrengthCh0>
+                                <name>mtxrWlRtabRxStrengthCh0</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.14</oid>
+                        </mtxrWlRtabRxStrengthCh0>
+
+                        <mtxrWlRtabTxStrengthCh1>
+                                <name>mtxrWlRtabTxStrengthCh1</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.15</oid>
+                        </mtxrWlRtabTxStrengthCh1>
+
+                        <mtxrWlRtabRxStrengthCh2>
+                                <name>mtxrWlRtabRxStrengthCh2</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.17</oid>
+                        </mtxrWlRtabRxStrengthCh2>
+
+                        <mtxrWlRtabTxStrengthCh2>
+                                <name>mtxrWlRtabTxStrengthCh2</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.18</oid>
+                        </mtxrWlRtabTxStrengthCh2>
+
+                        <mtxrWlRtabRxStrengthCh1>
+                                <name>mtxrWlRtabRxStrengthCh1</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.16</oid>
+                        </mtxrWlRtabRxStrengthCh1>
+
+
+                        <mtxrWlRtabTxStrength>
+                                <name>mtxrWlRtabTxStrength</name>
+                                <method>walk</method>
+                                <source>value</source>
+                                <direction>input-output</direction>
+                                <oid>.1.3.6.1.4.1.14988.1.1.1.2.1.19</oid>
+                        </mtxrWlRtabTxStrength>
+				
+                </fields>
+</query>
