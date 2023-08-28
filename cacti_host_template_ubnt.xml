@@ -10517,7 +10517,7 @@
 	<hash_04010265250ce9d6879244c43b7e95735c8d52>
 		<name>AirOS - ubntSta</name>
 		<description></description>
-		<xml_path>&lt;path_cacti&gt;/resource/snmp_queries/ubnt_AP.xml</xml_path>
+		<xml_path>&lt;path_cacti&gt;/resource/snmp_queries/ubntStaTable.xml</xml_path>
 		<data_input_id>hash_030102bf566c869ac6443b0c75d1c32b5a350e</data_input_id>
 		<graphs>
 			<hash_110102f4f29d624298436300f7c301fcad9d72>
